@@ -1,0 +1,24 @@
+<table>
+    <thead>
+    <tr>
+        <th>studentreg</th>
+        <th>lastname</th>
+        <th>firstname</th>
+        <th>phonenumber</th>
+        <th>id</th>
+        <th>course</th>
+    </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+    <tr>
+        <td>{{this.studentreg}}</td>
+        <td>{{this.lastname}}</td>
+        <td>{{this.firstname}}</td>
+        <td>{{this.phonenumber}}</td>
+        <td>{{this.id}}</td>
+        <td>{{this.course}}</td>
+    </tr>
+        {{/each}}
+    </tbody>
+</table>

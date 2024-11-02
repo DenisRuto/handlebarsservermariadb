@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    /* background-color: rgba(80, 78, 78,0.4); */
+    
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    
+    
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 100%;
+
+}
+.header ul li{
+    width: 200px;
+    height: 100%;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.header ul li a{
+    text-decoration: none;
+}
+table {
+    width: 100%; /* Make the table full width */
+    border-collapse: collapse; /* Merge borders */
+    margin: 20px 0; /* Space above and below the table */
+}
+th, td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Light gray border */
+}
+.formcontainer{
+    width: 70%;
+    height: 500px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+form{
+   
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+form div{
+    width: 60%;
+    
+    height: 70px;
+}
+input{
+    width: 100%;
+    height: 60%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
